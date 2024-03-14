@@ -21,6 +21,3 @@ jobs:
       
     - name: Test Docker image
       run: docker run nodeApp
-
-
-// comment
