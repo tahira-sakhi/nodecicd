@@ -17,7 +17,7 @@ jobs:
       uses: actions/checkout@v2
     
     - name: Build Docker image
-      run: docker build -t nodeApp .
+      run: docker build -t nodeapp .
       
     - name: Test Docker image
-      run: docker run nodeApp
+      run: docker run nodeapp
