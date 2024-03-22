@@ -20,7 +20,7 @@ jobs:
       run: docker build -t nodeapp .
       
     - name: Test Docker image
-      run: docker run nodeapp
+      run: docker run -d nodeapp
       
     - name: Log into Docker Hub
       uses: docker/login-action@v1
